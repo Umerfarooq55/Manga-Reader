@@ -1,0 +1,4 @@
+#Tue Mar 19 00:58:46 PKT 2019
+base.0=F\:\\Android Projects\\YimingDong\\MangaReader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,113 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Android Projects\\YimingDong\\MangaReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\92333\\.gradle\\caches\\transforms-1\\files-1.1\\ratethisapp-1.2.0.aar\\cddb5aa837f9159c7b159af598577bbf\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,108,303,359,412",
+                        "endLines": "2,6,7,8,9",
+                        "endColumns": "52,13,55,52,71",
+                        "endOffsets": "103,298,354,407,479"
+                    },
+                    "to": {
+                        "startLines": "21,22,26,27,28",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2215,2268,2463,2519,2572",
+                        "endLines": "21,25,26,27,28",
+                        "endColumns": "52,13,55,52,71",
+                        "endOffsets": "2263,2458,2514,2567,2639"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\92333\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.8.0.aar\\30e27c2eda1874549b6805fdac43b386\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "239,309,432,497,562,642,751",
+                        "endColumns": "69,122,64,64,79,108,73",
+                        "endOffsets": "308,431,496,561,641,750,824"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2644,2718,2845,2914,2983,3067,3180",
+                        "endColumns": "73,126,68,68,83,112,77",
+                        "endOffsets": "2713,2840,2909,2978,3062,3175,3253"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\92333\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\37a225b9797f9e594990de866392c97e\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "245",
+                        "endColumns": "102",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2108",
+                        "endColumns": "106",
+                        "endOffsets": "2210"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\92333\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b44eecec6d24432f95d6439be285f346\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3343",
+                        "endColumns": "100",
+                        "endOffsets": "3439"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\92333\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\fa728a8802360abd16c97cc4d1ed5dc4\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "287",
+                        "endColumns": "203",
+                        "endOffsets": "490"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1904",
+                        "endColumns": "203",
+                        "endOffsets": "2103"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\92333\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\5b4090767f62116cbb142fbe282137f3\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,996,1103,1215,1317,1425,1532,1642,1804,1904",
+                        "endColumns": "119,105,106,88,100,117,82,79,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,991,1098,1210,1312,1420,1527,1637,1799,1899,1984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,996,1103,1215,1317,1425,1532,1642,1804,3258",
+                        "endColumns": "119,105,106,88,100,117,82,79,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,991,1098,1210,1312,1420,1527,1637,1799,1899,3338"
+                    }
+                }
+            ]
+        }
+    ]
+}

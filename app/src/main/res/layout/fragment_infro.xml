@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rv"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.dymx101.freemanga.mangareader.fragment.InfroFragment">
+
+            <ImageView
+                android:id="@+id/image_cover"
+                android:layout_width="150dp"
+                android:layout_height="185dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="20dp"
+                android:elevation="4dp" />
+
+
+            <TextView
+                android:id="@+id/mangaName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/author_name"
+                android:layout_alignStart="@+id/author_name"
+                android:layout_alignTop="@+id/image_cover"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#212121"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mangaName"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/image_cover"
+                android:layout_toRightOf="@+id/image_cover"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121" />
+
+
+            <TextView
+                android:id="@+id/stat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/author_name"
+                android:layout_alignStart="@+id/author_name"
+                android:layout_below="@+id/author_name"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Status"
+                android:textColor="#212121"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/stat"
+                android:layout_alignStart="@+id/stat"
+                android:layout_below="@+id/stat"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121" />
+
+            <TextView
+                android:id="@+id/cate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/image_cover"
+                android:layout_alignStart="@+id/image_cover"
+                android:layout_below="@+id/image_cover"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Categories"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/cate"
+                android:layout_alignStart="@+id/cate"
+                android:layout_below="@+id/cate"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/categories"
+                android:layout_alignStart="@+id/categories"
+                android:layout_below="@+id/categories"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Description"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/desc"
+                android:layout_alignStart="@+id/desc"
+                android:layout_below="@+id/desc"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/description"
+                android:layout_alignStart="@+id/description"
+                android:layout_below="@+id/description"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Last Updated"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dateUpdated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView3"
+                android:layout_alignEnd="@+id/status"
+                android:layout_alignRight="@+id/status"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Date Created"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dateCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView3"
+                android:layout_alignBottom="@+id/textView3"
+                android:layout_alignEnd="@+id/dateUpdated"
+                android:layout_alignRight="@+id/dateUpdated"
+                android:fontFamily="sans-serif"
+                android:textColor="#212121" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="17dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingBottom="55dp"
+                android:text="Total Chapters"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chaptNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/stat"
+                android:layout_alignRight="@+id/stat"
+                android:layout_alignTop="@+id/textView4"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="55dp"
+                android:textColor="#212121" />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adDetailView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

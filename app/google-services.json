@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "179560308977",
+    "firebase_url": "https://manga-c2c73.firebaseio.com",
+    "project_id": "manga-c2c73",
+    "storage_bucket": "manga-c2c73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179560308977:android:54a333a22cd34d52",
+        "android_client_info": {
+          "package_name": "com.dymx101.freemanga.mangareader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179560308977-6blogpgubaf4bukkcm4i20141blvncs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAln0qtzfAjlTyQL9bDXBmfqwDJr_gKyPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

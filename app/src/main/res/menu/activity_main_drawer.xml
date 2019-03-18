@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/all_manga"
+        android:icon="@drawable/iconmanga"
+        android:title="All Manga" />
+
+    <item
+        android:id="@+id/recentlyUpdated"
+        android:icon="@drawable/bookicon"
+        android:title="Recently Updated"/>
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_fav"
+        android:title="Favorites" />
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/action_category"
+                android:icon="@drawable/pageicon"
+                android:title="Action" />
+            <item
+                android:id="@+id/adventure_category"
+                android:icon="@drawable/pageicon"
+                android:title="Adventure" />
+            <item
+                android:id="@+id/comedy_category"
+                android:icon="@drawable/pageicon"
+                android:title="Comedy" />
+            <item
+                android:id="@+id/harem_category"
+                android:icon="@drawable/pageicon"
+                android:title="Harem" />
+            <item
+                android:id="@+id/horror_category"
+                android:icon="@drawable/pageicon"
+                android:title="Horror" />
+            <item
+                android:id="@+id/supernatural_category"
+                android:icon="@drawable/pageicon"
+                android:title="Supernatural" />
+            <item
+                android:id="@+id/crime_category"
+                android:icon="@drawable/pageicon"
+                android:title="Crime" />
+            <item
+                android:id="@+id/mystery_category"
+                android:icon="@drawable/pageicon"
+                android:title="Mystery" />
+            <item
+                android:id="@+id/physcological"
+                android:icon="@drawable/pageicon"
+                android:title="Psychological" />
+            <item
+                android:id="@+id/romance_category"
+                android:icon="@drawable/pageicon"
+                android:title="Romance" />
+            <item
+                android:id="@+id/drama_category"
+                android:icon="@drawable/pageicon"
+                android:title="Drama" />
+            <item
+                android:id="@+id/fantasy_category"
+                android:icon="@drawable/pageicon"
+                android:title="Fantasy" />
+
+            <item
+                android:id="@+id/seinen"
+                android:icon="@drawable/pageicon"
+                android:title="Seinen"/>
+
+            <item
+                android:id="@+id/martial_arts"
+                android:icon="@drawable/pageicon"
+                android:title="Martial Arts"/>
+
+            <item
+                android:id="@+id/shoujo"
+                android:icon="@drawable/pageicon"
+                android:title="Shoujo"/>
+
+
+            <item
+                android:id="@+id/school_category"
+                android:icon="@drawable/pageicon"
+                android:title="School Life" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/rate_us_icon"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="About" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback &amp; Bug Reports" />
+
+            <item
+                android:id="@+id/sharethisapp"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share this App"/>
+        </menu>
+    </item>
+</menu>
